@@ -1,0 +1,21 @@
+{
+  "name": "encore",
+  "version": "0.1.0",
+  "description": "webpack encore example",
+  "scripts": {
+    "dev": "encore dev --watch",
+    "dev-server": "encore dev-server --host 0.0.0.0 --disable-host-check --port 8080",
+    "production": "encore production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@symfony/webpack-encore": "^0.17.0",
+    "bootstrap": "^4.0.0-beta.2",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^1.1.0",
+    "node-sass": "^4.7.2",
+    "popper.js": "^1.12.9",
+    "sass-loader": "^6.0.6"
+  }
+}
